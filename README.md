@@ -2,26 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
 
-## Development server
+## Purpose of this project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This project was done in order to sharpen Angular skills.
 
-## Code scaffolding
+## What does this project do?
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+It is an app where you can search for countries, in which you will find basic information about which you want to find out. In the three sections that you find on your left, you will select the search by capital, by country and by region. In the tables you will see a link that says "See more", when you click there it will redirect you to a page of the app that will tell you a little more about that country.
 
-## Build
+## Set up the project
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Use `npm install` to download the `node_modules` folder and all the another stuff that Angular needs to works.
+- `npm start`
+- Enjoy!
