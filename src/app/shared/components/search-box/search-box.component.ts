@@ -15,8 +15,11 @@ export class SearchBoxComponent implements OnInit, OnDestroy{
   @Input()
   public placeholder: string = '';
 
-  @Output()
-  public onValue = new EventEmitter<string>();
+  @Input()
+  public initialValue: string = '';
+
+  // @Output()
+  // public onValue = new EventEmitter<string>();
 
   @Output()
   public onDebounce = new EventEmitter<string>();
@@ -35,9 +38,9 @@ export class SearchBoxComponent implements OnInit, OnDestroy{
     this.debouncerSubscription?.unsubscribe();
   }
 
-  emitValue(txtSearch:string):void{
-    this.onValue.emit(txtSearch);
-  }
+  // emitValue(txtSearch:string):void{
+  //   this.onValue.emit(txtSearch);
+  // }
 
   onKeyPress(searchTerm: string){
     this.debouncer.next( searchTerm );
